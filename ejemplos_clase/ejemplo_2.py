@@ -5,8 +5,8 @@
 # Version: 3.0
 
 # Ejemplos varialbles de texto
-texto_1 = 'Hola'
-texto_2 = 'Mundo'
+texto_1 = str(input("Ingrese nombre "))
+texto_2 = str(input("Ingrese apellido "))
 
 # Imprimimos los textos directo a consola
 print(texto_1, texto_2)
@@ -30,9 +30,10 @@ print('El resultado de la suma es', suma)
 # separadas por un espacio
 
 mensaje = texto_1 + ' ' + texto_2
-print('El resultado de la suma con espacio es', suma)
-print(mensaje)
+print('El resultado de la suma sin espacio es', suma)
+print("Ahora con espacio queda así", mensaje)
 
 # Duplicando el texto
-texto_duplicado = texto_1 * 2
+duplicar = int(input( "Cuantas veces desaes duplicar tu nombre"))
+texto_duplicado = texto_1 * duplicar
 print('Duplicar texto', texto_1, ':', texto_duplicado)

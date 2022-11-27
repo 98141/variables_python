@@ -9,8 +9,8 @@
 # el valor entero 2
 # 2- Crearemos una variable llamada numero_2 que almacene
 # el valor entero 4
-numero_1 = 2
-numero_2 = 4
+numero_1 = int(input("Ingrese primer numero " ))
+numero_2 = int(input("Ingrese segundo numero " ))
 
 # Realizar la suma de las dos variables
 suma = numero_1 + numero_2   # Operamos la suma
@@ -28,8 +28,9 @@ print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
 
 
 # Ahora realizaremos ejemplos con números decimales --> float
-numero_3 = 3.0
-numero_4 = 4.5
+print("Ahora vamos hacer ejemplos con float")
+numero_3 = float(input("Ingrese tercer numero " ))
+numero_4 = float(input("Ingrese cuarto numero " ))
 
 suma = numero_3 + numero_4  # Operamos la suma
 

@@ -8,7 +8,7 @@
 
 # Una cadena de texto (string) está compuesta de Nº caracteres
 # ¿Cuántos caracteres tiene la palabra Argentina?
-pais = 'Argentina'
+pais = "Argentina"
 argentina_len = len(pais)
 print(pais, 'tiene', argentina_len, 'caracteres')
 
@@ -21,7 +21,7 @@ print(caracter_inicial)
 
 # Accedo al caracter final, si la palabra tiene 9 letras,
 # el índice de la letra final será 8
-caracter_final = pais[8]
+caracter_final = pais[7]
 caracter_final = pais[argentina_len-1]  # len=9, len-1 = 8 [MÉTODO CORRECTO]
 caracter_final = pais[-1]  # Índice negativo recorre la lista al reves [MÉTODO CORRECTO]
 print(caracter_final)
